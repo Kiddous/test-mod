@@ -10,7 +10,7 @@ lightRadius: 140
 rotateSpeed: 1.9
 drownTimeMultiplier: 3
 legCount: 8
-legMoveSpace: 0.2
+legMoveSpace: 0.9
 legPairOffset: 3
 legLength: 19
 legExtension: -5
@@ -18,7 +18,7 @@ legBaseOffset: 2
 stepShake: 1
 legLengthScl: 0.93
 rippleScale: 3
-legSpeed: 0.5
+legSpeed: 0.2
 legSplashDamage: 80
 legSplashRange: 60
 hovering: true
