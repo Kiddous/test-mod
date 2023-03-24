@@ -17,16 +17,63 @@ flipBackLegs: true
 hitSize: 10
 weapons: [
   {
-    reload: 5
+    name: spades
     x: 0
+    y: -18
     mirror: false
+    reload: 280
+    rotate: true
+    rotateSpeed: 1.5
+    inaccuracy: 0
     bullet: {
-      type: basicBulletType
-      damage: 1
-      healPercent: 25
-      speed: 2
-      lifetime: 60
-      collidesTeam: true
+      type: ArtilleryBulletType
+      width: 6
+      height: 12
+      damage: 100
+      splashDamageRadius: 40
+      splashDamage: 80
+      scaledSplashDamage: true
+      lifetime: 150
+      speed: 4
+      fragBullets: 8
+      fragBullet: {
+        type: ArtilleryBulletType
+        width: 3
+        height: 6
+        damage: 15
+        splashDamageRadius: 20
+        splashDamage: 15
+        scaledSplashDamage: true
+        lifetime: 20
+        speed: 2
+        collides: true
+        fragBullets: 6
+        fragBullet: {
+          type: ArtilleryBulletType
+          width: 1
+          height: 3
+          damage: 10
+          splashDamageRadius: 10
+          splashDamage: 10
+          scaledSplashDamage: true
+          lifetime: 10
+          speed: 2
+          collides: true
+          fragBullets: 4
+          fragBullet: {
+            type: ArtilleryBulletType
+            width: 1
+            height: 1
+            damage: 5
+            splashDamageRadius: 5
+            splashDamage: 5
+            scaledSplashDamage: true
+            lifetime: 5
+            speed: 2
+            collides: true
+          }
+        } 
+      }  
     }
-   }
+  }
 ]
