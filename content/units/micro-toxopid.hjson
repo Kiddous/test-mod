@@ -50,7 +50,7 @@ weapons: [
       serrationFadeOffset: 0
       serrations: 3
       serrationWidth: 2
-      fromColor: 8da1e3
+      fromColor: bf92f9
       toColor: A020F0
     }
   }
@@ -77,7 +77,7 @@ weapons: [
         collidesTiles: true
         splashDamageRadius: 80
         splashDamage: 75
-        backColor: 8da1e3
+        backColor: bf92f9
         frontColor: A020F0
         lightning: 5
         lightningLength: 5
@@ -100,7 +100,7 @@ weapons: [
             collidesTiles: false
             splashDamageRadius: 23
             splashDamage: 40
-            backColor: 8da1e3
+            backColor: bf92f9
             frontColor: A020F0
             lightning: 2
             lightningLength: 2
