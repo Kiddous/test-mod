@@ -35,7 +35,7 @@ weapons: [
     rotate: true
     recoil: 3
     inaccuracy: 20
-    shoot{
+    shoot: {
         shots: 2
         shotDelay: 0
     }
