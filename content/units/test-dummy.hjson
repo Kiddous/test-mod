@@ -10,7 +10,7 @@ mineSpeed: 20
 itemCapacity: 50
 mineTier: 2
 legCount: 6
-legLength: 10
+legLength: 20
 legMoveSpace: 2
 legBaseOffset: -4
 flipBackLegs: true
