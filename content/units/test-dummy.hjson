@@ -17,7 +17,7 @@ flipBackLegs: true
 hitSize: 10
 weapons: [
   {
-    name: spades
+    name: none
     x: 0
     y: -18
     mirror: false
