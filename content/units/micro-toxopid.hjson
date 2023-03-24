@@ -42,7 +42,7 @@ weapons: [
     mirror: true
     bullet: {
       type: ShrapnelBulletType
-      length: 10
+      length: 23
       damage: 110
       width: 27
       serrationLenScl: 7
