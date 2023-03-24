@@ -1,0 +1,53 @@
+type: legs
+name: BB toxipid
+description: a tiny boi
+drag: 0.1 
+speed: 2 
+hitSize: 7
+health: 22000
+armor: 13
+lightRadius: 140
+rotateSpeed: 1.9
+drownTimeMultiplier: 3
+legCount: 8
+legMoveSpace: 0.2
+legPairOffset: 3
+legLength: 19
+legExtension: -5
+legBaseOffset: 2
+stepShake: 1
+legLengthScl: 0.93
+rippleScale: 3
+legSpeed: 0.19
+legSplashDamage: 80
+legSplashRange: 60
+hovering: true
+shadowElevation: 0.95
+weapons: [
+  {
+    name: micro-purple-mount
+    reload: 30
+    x: 3
+    y: 2
+    shootY: 2
+    shake: 4
+    rotateSpeed: 2
+    rotate: true
+    recoil: 3
+    shoot: {
+        Shootspread: [
+            amount: 2
+            size: 17
+        ]
+    }
+    mirror: true
+    bullet: {
+      type: basicBulletType
+      damage: 1
+      healPercent: 25
+      speed: 2
+      lifetime: 60
+      collidesTeam: true
+    }
+   }
+]

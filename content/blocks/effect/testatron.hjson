@@ -1,0 +1,24 @@
+type: coreBlock
+name: testatron
+details: the great tester
+health: 15000
+itemCapacity: 40000
+size: 3
+unitCapModifier: 35
+unitType: test-dummy
+requirements: [
+  copper/2000
+  lead/2000
+  testium/2000
+]
+
+research: {
+  parent: testium
+  requirements: [
+    testium/2000000
+  ]  
+}
+category: effect
+hasItems: true
+buildVisibility: shown
+solid: false
