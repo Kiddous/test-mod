@@ -8,7 +8,7 @@ consumes: {
 
 plans: [ 
   {
-    unit: micro-toxipid
+    unit: micro-toxopid
     requirements: [
       testium/50
       copper/50
