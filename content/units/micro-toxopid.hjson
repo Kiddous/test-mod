@@ -2,7 +2,7 @@ type: legs
 name: BB toxipid
 description: a tiny boi
 drag: 0.1 
-speed: 2 
+speed: 0.5
 hitSize: 7
 health: 22000
 armor: 13
@@ -33,7 +33,7 @@ weapons: [
     shake: 4
     rotateSpeed: 2
     rotate: true
-    recoil: 3
+    recoil: 1
     inaccuracy: 20
     shoot: {
         shots: 2
@@ -62,7 +62,7 @@ weapons: [
     mirror: false
     reload: 210
     shake: 10
-    recoil: 10
+    recoil: 3
     rotateSpeed: 1
     shootSound: artillery
     rotate: true
