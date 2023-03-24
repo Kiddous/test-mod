@@ -54,4 +54,64 @@ weapons: [
       toColor: A020F0
     }
   }
+    {
+    name: micro-toxopid-cannon
+    y: -4
+    x: 0
+    shootY: 6
+    mirror: false
+    reload: 210
+    shake: 10
+    recoil: 10
+    rotateSpeed: 1
+    shootSound: artillery
+    rotate: true
+    rotationLimit: 80
+    bullet: {
+        type: ArtilleryBulletType
+        hitEffect: sapExplosion
+        knockback: 0.8
+        lifetime: 80
+        width: 7
+        height: 7
+        collidesTiles: true
+        splashDamageRadius: 80
+        splashDamage: 75
+        backColor: 8da1e3
+        frontColor: A020F0
+        lightning: 5
+        lightningLength: 5
+        smokeEffect: shootBigSmoke2
+        hitShake: 10
+        lightRadius: 10
+        lightColor: A020F0
+        lightOpacity: 0.6
+        status: sapped
+        statusDuration: 60
+        fragLifeMin: 0.3
+        fragBullets: 9
+        fragBullet: {
+            type: ArtilleryBulletType
+            hitEffect: sapExplosion
+            knockback: 0.8
+            lifetime: 90
+            width: 5
+            height: 5
+            collidesTiles: false
+            splashDamageRadius: 23
+            splashDamage: 40
+            backColor: 8da1e3
+            frontColor: A020F0
+            lightning: 2
+            lightningLength: 2
+            smokeEffect: shootBigSmoke2
+            hitShake: 5
+            lightRadius: 8
+            lightColor: A020F0
+            lightOpacity: 0.5
+            status: sapped
+            statusDuration: 60
+        }        
+    }
+  }
 ]
