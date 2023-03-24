@@ -1,0 +1,37 @@
+type: ItemTurret
+buildCostMultiplier: 0.1
+size: 2
+scaledHealth: 420
+reload: 20
+range: 480
+maxAmmo: 200 
+ammoPerShot: 1
+consumeAmmoOnce: false
+recoil: 3
+rotateSpeed: 2 
+targetAir: true 
+targetGround: true 
+shootY: -2
+shootSound: shootBig
+requirements: [ 
+  testium/300
+  thorium/200
+  plastanium/125
+]  
+ammoTypes: { 
+  testium: { 
+    type: BasicBulletType 
+    width: 6
+    height: 11 
+    hitSize: 5
+    damage: 100
+    speed: 4
+    lifetime: 80
+  }  
+}  
+inaccuracy: 4
+shoot: {
+  shots: 8
+  shotDelay: 40
+} 
+category: turret 

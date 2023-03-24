@@ -1,0 +1,34 @@
+type: unitFactory
+name: T1 Factory
+description: creates basic troops of all types for versatility
+size: 3
+consumes: {
+ power: 7
+}
+
+plans: [ 
+  {
+    unit: test-dummy
+    requirements: [
+      testium/50
+      copper/50
+      lead/50
+    ]
+    time: 50
+  }
+]
+requirements: [
+  testium/1
+  copper/1
+  lead/1
+]
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    testium/1
+    copper/1
+    lead/1
+  ]
+}
+

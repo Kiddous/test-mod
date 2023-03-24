@@ -1,0 +1,33 @@
+type: legs
+name: test dummy
+description: a tiny boi
+health: 20000
+range: 10
+speed: 0.5
+hovering: true
+rotateSpeed: 10
+mineSpeed: 20
+itemCapacity: 50
+mineTier: 2
+legCount: 4
+legLength: 10
+legMoveSpace: 2
+legBaseOffset: -1
+flipBackLegs: true
+hitSize: 10
+canBoost: true
+weapons: [
+  {
+    reload: 5
+    x: 0
+    mirror: false
+    bullet: {
+      type: basicBulletType
+      damage: 1
+      healPercent: 25
+      speed: 2
+      lifetime: 60
+      collidesTeam: true
+    }
+   }
+]

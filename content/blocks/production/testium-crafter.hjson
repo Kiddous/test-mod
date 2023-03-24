@@ -1,0 +1,22 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 420
+itemCapacity: 200
+liquidCapacity: 8
+updateEffect: smeltsmoke
+consumes: {
+  power: 150
+  items: {
+    items: [
+      copper/4
+    ]
+  }
+}
+requirements: [
+  copper/4
+]
+category: crafting
+outputItem: testium/10

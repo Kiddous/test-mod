@@ -1,0 +1,16 @@
+name: testium Wall
+description: A testium wall 
+type: Wall
+health: 11600
+size: 1
+requirements: [
+   testium/1
+]
+category: defense
+lightningChance: 0.5
+research: {
+  parent: copper-wall
+  requirements: [
+    testium/1
+  ]
+}
