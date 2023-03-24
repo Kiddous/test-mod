@@ -50,6 +50,8 @@ weapons: [
       serrationFadeOffset: 0
       serrations: 10
       serrationWidth: 2
+      fromColor: 8da1e3
+      toColor: A020F0
     }
   }
 ]
