@@ -42,13 +42,13 @@ weapons: [
     mirror: true
     bullet: {
       type: ShrapnelBulletType
-      length: 23
+      length: 10
       damage: 110
       width: 27
       serrationLenScl: 7
-      serrationSpaceOffset: 60
+      serrationSpaceOffset: 15
       serrationFadeOffset: 0
-      serrations: 10
+      serrations: 3
       serrationWidth: 2
       fromColor: 8da1e3
       toColor: A020F0
