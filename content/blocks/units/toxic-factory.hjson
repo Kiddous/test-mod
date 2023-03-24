@@ -1,7 +1,7 @@
 type: unitFactory
-name: T1 Factory
+name: toxic factory
 description: toxi boi
-size: 3
+size: 2
 consumes: {
  power: 7
 }
