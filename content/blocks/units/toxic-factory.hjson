@@ -1,6 +1,6 @@
 type: unitFactory
 name: T1 Factory
-description: creates basic troops of all types for versatility
+description: toxi boi
 size: 3
 consumes: {
  power: 7

@@ -28,26 +28,28 @@ weapons: [
     name: micro-purple-mount
     reload: 30
     x: 3
-    y: 2
+    y: -2
     shootY: 2
     shake: 4
     rotateSpeed: 2
     rotate: true
     recoil: 3
-    shoot: {
-        Shootspread: [
-            amount: 2
-            size: 17
-        ]
+    inaccuracy: 20
+    shoot{
+        shots: 2
+        shotDelay: 0
     }
     mirror: true
     bullet: {
-      type: basicBulletType
-      damage: 1
-      healPercent: 25
-      speed: 2
-      lifetime: 60
-      collidesTeam: true
+      type: SharpnelBulletType
+      length: 23
+      damage: 110
+      width: 27
+      serrationLenScl: 7
+      serrationSpaceOffset: 60
+      serrationFadeOffset: 0
+      serrations: 10
+      serrationWidth: 2
     }
-   }
+  }
 ]
