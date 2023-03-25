@@ -19,7 +19,7 @@ weapons: [
   {
     name: none
     x: 0
-    y: -18
+    y: 0
     mirror: false
     reload: 280
     rotate: true
