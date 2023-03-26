@@ -1,0 +1,79 @@
+type: legs
+name: cat top view
+description: a little demon
+health: 999999
+range: 10
+speed: 4
+hovering: true
+rotateSpeed: 100
+mineSpeed: 20
+itemCapacity: 50
+mineTier: 2
+legCount: 4
+legLength: 0
+legMoveSpace: 3
+legBaseOffset: -4
+flipBackLegs: true
+hitSize: 10
+weapons: [
+  {
+    name: a-little-demon
+    x: 0
+    y: 0
+    mirror: false
+    reload: 280
+    rotate: true
+    rotateSpeed: 1.5
+    inaccuracy: 0
+    bullet: {
+      type: ArtilleryBulletType
+      width: 6
+      height: 12
+      damage: 1000
+      splashDamageRadius: 40
+      splashDamage: 80
+      scaledSplashDamage: true
+      lifetime: 300
+      speed: 100
+      fragBullets: 8
+      fragBullet: {
+        type: ArtilleryBulletType
+        width: 3
+        height: 6
+        damage: 15
+        splashDamageRadius: 20
+        splashDamage: 15
+        scaledSplashDamage: true
+        lifetime: 20
+        speed: 90
+        collides: true
+        fragBullets: 6
+        fragBullet: {
+          type: ArtilleryBulletType
+          width: 1
+          height: 3
+          damage: 10
+          splashDamageRadius: 10
+          splashDamage: 10
+          scaledSplashDamage: true
+          lifetime: 10
+          speed: 2
+          collides: true
+          fragBullets: 4
+          fragBullet: {
+            type: ArtilleryBulletType
+            width: 1
+            height: 1
+            damage: 5
+            splashDamageRadius: 5
+            splashDamage: 5
+            scaledSplashDamage: true
+            lifetime: 5
+            speed: 2
+            collides: true
+          }
+        } 
+      }  
+    }
+  }
+]
