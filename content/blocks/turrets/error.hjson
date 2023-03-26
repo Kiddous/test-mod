@@ -1,8 +1,8 @@
-type: ItemTurret
+type: ItemTurret // can i change this?
 buildCostMultiplier: 0.1
 size: 1
-scaledHealth: 
-reload: 20
+scaledHealth: 100
+reload: 4
 range: 480
 maxAmmo: 5000
 ammoPerShot: 2
