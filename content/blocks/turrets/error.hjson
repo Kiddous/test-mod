@@ -2,10 +2,10 @@ type: ItemTurret
 buildCostMultiplier: 0.1
 size: 1
 scaledHealth: 100
-reload: 4
-range: 480
-maxAmmo: 5000
-ammoPerShot: 2
+reload: 400
+range: 800
+maxAmmo: 30
+ammoPerShot: 10
 consumeAmmoOnce: false
 recoil: 3
 rotateSpeed: 2 
@@ -19,63 +19,9 @@ requirements: [
   plastanium/1
 ]  
 ammoTypes: { 
-  testium: { 
-    type: BasicBulletType
-    sprite: tm-error-bulet-top
-    backSprite: tm-error-bullet-bottom
-    hitEffect: sapExplosion
-    despawnEffect: sapExplosion
-    shootEffect: none
-    smokeEffect: shootBigSmoke2
-    impact: true
-    hittable: false
-    reflectable: false
-    absorbable: false
-    homingRange: 80
-    homingPower: 4
-    homingDelay: 20
-    spin: 1
-    shrinkY: -1
-    shrinkX: -1
-    knockback: -2
-    width: 14
-    height: 14
-    damage: 0
-    lifetime: 400
-    speed: 1.5
-    backColor: A020F0
-    frontColor: 000000
-    fragBullets: 10
-    fragBullet: {
-      type: BasicBulletType
-      sprite: tm-error-bulet-top
-      backSprite: tm-error-bullet-bottom
-      hitEffect: sapExplosion
-      despawnEffect: sapExplosion
-      shootEffect: none
-      smokeEffect: shootBigSmoke2
-      impact: true
-      hittable: false
-      reflectable: false
-      absorbable: false
-      homingRange: 800
-      homingPower: 10
-      spin: 5
-      shrinkY: 5
-      shrinkX: 5
-      knockback: -6
-      width: 20
-      height: 20
-      damage: 1000
-      lifetime: 10
-      speed: 20
-      backColor: A020F0
-      frontColor: 000000
-    }  
-  }
   errorium: { 
   type: BasicBulletType
-    sprite: tm-error-bulet-top
+    frontSprite: tm-error-bullet-top
     backSprite: tm-error-bullet-bottom
     hitEffect: sapExplosion
     despawnEffect: sapExplosion
@@ -98,11 +44,11 @@ ammoTypes: {
     lifetime: 600
     speed: 3
     backColor: A020F0
-    frontColor: 000000
+    frontColor: 301934
     fragBullets: 10
     fragBullet: {
       type: BasicBulletType
-      sprite: tm-error-bulet-top
+      frontSprite: tm-error-bullet-top
       backSprite: tm-error-bullet-bottom
       hitEffect: sapExplosion
       despawnEffect: sapExplosion
@@ -121,10 +67,10 @@ ammoTypes: {
       width: 30
       height: 30
       damage: 2000
-      lifetime: 20
+      lifetime: 100
       speed: 30
       backColor: A020F0
-      frontColor: 000000
+      frontColor: 301934
     }  
   } 
 } 
