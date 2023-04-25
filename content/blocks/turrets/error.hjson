@@ -45,7 +45,7 @@ ammoTypes: {
     speed: 3
     backColor: A020F0
     frontColor: CBC3E3
-    fragBullets: 10
+    fragBullets: 5
     fragBullet: {
       type: BasicBulletType
       sprite: tm-error-bullet-top
@@ -71,7 +71,7 @@ ammoTypes: {
       speed: 30
       backColor: A020F0
       frontColor: CBC3E3
-      fragBullets: 10
+      fragBullets: 5
       fragBullet: {
         type: BasicBulletType
         sprite: tm-error-bullet-top
@@ -97,7 +97,7 @@ ammoTypes: {
         speed: 30
         backColor: A020F0
         frontColor: CBC3E3
-        fragBullets: 10
+        fragBullets: 5
         fragBullet: {
           type: BasicBulletType
           sprite: tm-error-bullet-top
@@ -123,7 +123,7 @@ ammoTypes: {
           speed: 30
           backColor: A020F0
           frontColor: CBC3E3
-          fragBullets: 10
+          fragBullets: 5
           fragBullet: {
             type: BasicBulletType
             sprite: tm-error-bullet-top
@@ -149,7 +149,7 @@ ammoTypes: {
             speed: 30
             backColor: A020F0
             frontColor: CBC3E3
-            fragBullets: 10
+            fragBullets: 5
             fragBullet: {
               type: BasicBulletType
               sprite: tm-error-bullet-top
@@ -175,7 +175,7 @@ ammoTypes: {
               speed: 30
               backColor: A020F0
               frontColor: CBC3E3
-              fragBullets: 10
+              fragBullets: 5
               fragBullet: {
                 type: BasicBulletType
                 sprite: tm-error-bullet-top
