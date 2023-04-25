@@ -126,6 +126,7 @@ ammoTypes: {
       backColor: A020F0
       frontColor: 000000
     }  
-  }  
+  } 
+} 
 inaccuracy: 0
 category: turret 
