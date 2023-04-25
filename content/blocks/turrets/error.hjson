@@ -44,7 +44,7 @@ ammoTypes: {
     lifetime: 600
     speed: 3
     backColor: A020F0
-    frontColor: 301934
+    frontColor: CBC3E3
     fragBullets: 10
     fragBullet: {
       type: BasicBulletType
@@ -70,7 +70,7 @@ ammoTypes: {
       lifetime: 100
       speed: 30
       backColor: A020F0
-      frontColor: 301934
+      frontColor: CBC3E3
     }  
   } 
 } 
