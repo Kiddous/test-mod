@@ -21,7 +21,7 @@ requirements: [
 ammoTypes: { 
   errorium: { 
   type: BasicBulletType
-    frontSprite: tm-error-bullet-top
+    sprite: tm-error-bullet-top
     backSprite: tm-error-bullet-bottom
     hitEffect: sapExplosion
     despawnEffect: sapExplosion
@@ -48,7 +48,7 @@ ammoTypes: {
     fragBullets: 10
     fragBullet: {
       type: BasicBulletType
-      frontSprite: tm-error-bullet-top
+      sprite: tm-error-bullet-top
       backSprite: tm-error-bullet-bottom
       hitEffect: sapExplosion
       despawnEffect: sapExplosion
